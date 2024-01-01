@@ -1,0 +1,21 @@
+{
+  "name": "sashakuz",
+  "version": "1.0.0",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "tailwind": "npx tailwindcss -i ./src/input.css -o ./build/css/output.css --watch",
+    "prettier": "npx prettier --write **/*.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier-plugin-tailwindcss": "^0.5.3",
+    "tailwindcss-animated": "^1.0.1"
+  },
+  "dependencies": {
+    "flowbite": "^1.8.1",
+    "prettier": "^3.0.2"
+  },
+  "description": ""
+}
