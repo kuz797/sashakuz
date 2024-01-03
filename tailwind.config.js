@@ -4,8 +4,8 @@ module.exports = {
   theme: {
     extend: {
       animation: {
-        slide: "slide 3.33s linear infinite",
-        ttext: 'text 5s ease infinite',
+        slide: "slide 3.32s linear infinite",
+        text: 'text 5s ease infinite',
       },
       keyframes: {
         slide: {
