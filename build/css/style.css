@@ -1404,7 +1404,7 @@ input:checked + .toggle-bg {
 }
 
 .animate-slide {
-  animation: slide 15.8s linear infinite;
+  animation: slide 3.32s linear infinite;
 }
 
 .cursor-default {
