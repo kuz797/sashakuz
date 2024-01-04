@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en" class="sm:scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sasha Kuzmenko</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script>
+        // It's best to inline this in `head` to avoid FOUC (flash of unstyled content) when changing pages or themes
+        if (
+            localStorage.getItem('color-theme') === 'dark' ||
+            (!('color-theme' in localStorage) &&
+                window.matchMedia('(prefers-color-scheme: dark)').matches)
+        ) {
+            document.documentElement.classList.add('dark');
+            console.log("dark");
+        } else {
+            document.documentElement.classList.remove('dark');
+            console.log("light");
+        }
+    </script>
+</head>
+<body
+    class="bg-blue-100 dark:bg-slate-900 leading-relaxed text-slate-900 dark:text-slate-400 antialiased selection:bg-teal-300 selection:text-teal-900">
+    <div id="__next">
+        <div class="__variable_20b187 group/spotlight relative">
+            <div class="pointer-events-none fixed inset-0 z-30 transition duration-300 lg:absolute"
+                style="background: radial-gradient(600px at 496px 403px, rgba(29, 78, 216, 0.15), transparent 80%);">
+            </div>
+            <div class="mx-auto min-h-screen max-w-screen-xl px-6 py-12 font-sans md:px-12 md_py-20 lg:px-24 lg:py-0">
+                <div class="lg:flex lg:justify-between lg:gap-4">
+                    <header
+                        class="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1-2 lg:flex-col lg:justify-between lg:py-24">
+                        <div>
+                            <div class="flex items-center">
+                                <h1
+                                    class="text-4xl font-bold tracking-tight text-slate-900 dark:text-slate-200 sm:text-5x1">
+                                    <a href="">Sasha Kuzmenko</a>
+                                </h1>
+                                <button id="theme-toggle" type="button"
+                                    class="stroke-sky-200 fill-sky-100 group-hover:stroke-sky-600 dark:stroke-gray-400 dark:fill-gray-400/20 dark:group-hover:stroke-gray-300 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5">
+                                    <svg id="theme-toggle-dark-icon" class="w-6 h-6 hidden" fill="currentColor"
+                                        viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z">
+                                        </path>
+                                    </svg>
+                                    <svg id="theme-toggle-light-icon" class="w-6 h-6 hidden" fill="currentColor"
+                                        viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z"
+                                            fill-rule="evenodd" clip-rule="evenodd"></path>
+                                    </svg>
+                                </button>
+                            </div>
+                            <h2
+                                class="mt-3 text-lg font-medium tracking-tight text-slate-900 dark:text-slate-200 sm:text-x-1">
+                                Senior at Glenda Dowson High School
+                            </h2>
+                            <p
+                                class="first-line:tracking-widest first-letter:text-5xl first-letter:text-slate-900 dark:first-letter:text-slate-200 first-letter:mt-1 first-letter:float-left mt-4 max-w-xs leading-normal"></p>
+                                <p>
+                                I like to make cool things.
+                            </p>
+                            <nav class="nav hidden lg:block" aria-label="In-page jump links">
+                                <ul class="mt-16 w-max">
+                                    <li>
+                                        <a class="group flex items-center py-3" href="#totoro">
+                                            <span
+                                                class="nav-indicator mr-4 h-px w-8 bg-slate-600 transition-all group-hover:w-16 group-hover:text-slate-500 group-hover:dark:bg-slate-200 group-focus-visible:w-16 group-focus-visible:bg-slate-200 motion-reduce:transition-none"></span>
+                                            <span
+                                                class="nav-text text-xs font-bold uppercase tracking-widest text-slate-900 dark:text-slate-500 group-hover:text-slate-500 group-hover:dark:text-slate-200 group-focus-visible:text-slate-200">Totoro Bus-Stop Diorama Gallery
+                                            </span>
+                                        </a>
+                                    </li>                      
+                                    <li>
+                                        <a class="group flex items-center py-3" href="#sardine">
+                                            <span
+                                                class="nav-indicator mr-4 h-px w-8 bg-slate-600 transition-all group-hover:w-16 group-hover:text-slate-500 group-hover:dark:bg-slate-200 group-focus-visible:w-16 group-focus-visible:bg-slate-200 motion-reduce:transition-none"></span>
+                                            <span
+                                                class="nav-text text-xs font-bold uppercase tracking-widest text-slate-900 dark:text-slate-500 group-hover:text-slate-500 group-hover:dark:group-hover:text-slate-200 group-focus-visible:text-slate-200">Sardine Tin Keychain Gallery</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="group flex items-center py-3" href="#rube">
+                                            <span
+                                                class="nav-indicator mr-4 h-px w-8 bg-slate-600 transition-all group-hover:w-16 group-hover:text-slate-500 group-hover:dark:bg-slate-200 group-focus-visible:w-16 group-focus-visible:bg-slate-200 motion-reduce:transition-none"></span>
+                                            <span
+                                                class="nav-text text-xs font-bold uppercase tracking-widest text-slate-900 dark:text-slate-500 group-hover:text-slate-500 group-hover:dark:group-hover:text-slate-200 group-focus-visible:text-slate-200">Rube Goldberg Machine Gallery</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <ul class="ml-1 mt-8 flex items-center" aria-label="Social media">
+                            <li class="mr-5 text-xs">
+                                <a class="block hover:text-slate-200" href="mailto:skuz797@outlook.com" target="_blank"
+                                    rel="noreferrer">
+                                    <span class="sr-only">contact</span>
+                                    <svg viewBox="0 0 42 42" fill="currentColor" class="h-6 w-6" aria-hidden="true">
+                                        <path xmlns="http://www.w3.org/2000/svg"
+                                            d="M37.75,9 C40.6494949,9 43,11.3505051 43,14.25 L43,33.75 C43,36.6494949 40.6494949,39 37.75,39 L10.25,39 C7.35050506,39 5,36.6494949 5,33.75 L5,14.25 C5,11.3505051 7.35050506,9 10.25,9 L37.75,9 Z M40.5,18.351 L24.6023984,27.0952699 C24.2689733,27.2786537 23.8727436,27.2990297 23.5253619,27.1563978 L23.3976016,27.0952699 L7.5,18.351 L7.5,33.75 C7.5,35.2687831 8.73121694,36.5 10.25,36.5 L37.75,36.5 C39.2687831,36.5 40.5,35.2687831 40.5,33.75 L40.5,18.351 Z M37.75,11.5 L10.25,11.5 C8.73121694,11.5 7.5,12.7312169 7.5,14.25 L7.5,15.499 L24,24.573411 L40.5,15.498 L40.5,14.25 C40.5,12.7312169 39.2687831,11.5 37.75,11.5 Z">
+                                        </path>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="mr-5 text-xs">
+                                <a class="block hover:text-slate-200" href="https://www.instagram.com/sasha.xyk/?igsh=dTdmY2JranBvd3ox&utm_source=qr" target="_blank"
+                                    rel="noreferrer">
+                                    <span class="sr-only">Instagram</span>
+                                    <svg viewBox="0 0 1000 1000" fill="currentColor" class="h-6 w-6" aria-hidden="true">
+                                        <path xmlns="http://www.w3.org/2000/svg"
+                                            d="M295.42,6c-53.2,2.51-89.53,11-121.29,23.48-32.87,12.81-60.73,30-88.45,57.82S40.89,143,28.17,175.92c-12.31,31.83-20.65,68.19-23,121.42S2.3,367.68,2.56,503.46,3.42,656.26,6,709.6c2.54,53.19,11,89.51,23.48,121.28,12.83,32.87,30,60.72,57.83,88.45S143,964.09,176,976.83c31.8,12.29,68.17,20.67,121.39,23s70.35,2.87,206.09,2.61,152.83-.86,206.16-3.39S799.1,988,830.88,975.58c32.87-12.86,60.74-30,88.45-57.84S964.1,862,976.81,829.06c12.32-31.8,20.69-68.17,23-121.35,2.33-53.37,2.88-70.41,2.62-206.17s-.87-152.78-3.4-206.1-11-89.53-23.47-121.32c-12.85-32.87-30-60.7-57.82-88.45S862,40.87,829.07,28.19c-31.82-12.31-68.17-20.7-121.39-23S637.33,2.3,501.54,2.56,348.75,3.4,295.42,6m5.84,903.88c-48.75-2.12-75.22-10.22-92.86-17-23.36-9-40-19.88-57.58-37.29s-28.38-34.11-37.5-57.42c-6.85-17.64-15.1-44.08-17.38-92.83-2.48-52.69-3-68.51-3.29-202s.22-149.29,2.53-202c2.08-48.71,10.23-75.21,17-92.84,9-23.39,19.84-40,37.29-57.57s34.1-28.39,57.43-37.51c17.62-6.88,44.06-15.06,92.79-17.38,52.73-2.5,68.53-3,202-3.29s149.31.21,202.06,2.53c48.71,2.12,75.22,10.19,92.83,17,23.37,9,40,19.81,57.57,37.29s28.4,34.07,37.52,57.45c6.89,17.57,15.07,44,17.37,92.76,2.51,52.73,3.08,68.54,3.32,202s-.23,149.31-2.54,202c-2.13,48.75-10.21,75.23-17,92.89-9,23.35-19.85,40-37.31,57.56s-34.09,28.38-57.43,37.5c-17.6,6.87-44.07,15.07-92.76,17.39-52.73,2.48-68.53,3-202.05,3.29s-149.27-.25-202-2.53m407.6-674.61a60,60,0,1,0,59.88-60.1,60,60,0,0,0-59.88,60.1M245.77,503c.28,141.8,115.44,256.49,257.21,256.22S759.52,643.8,759.25,502,643.79,245.48,502,245.76,245.5,361.22,245.77,503m90.06-.18a166.67,166.67,0,1,1,167,166.34,166.65,166.65,0,0,1-167-166.34">
+                                        </path>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="mr-5 text-xs">
+                                <a class="block hover:text-slate-200" href="https://discordapp.com/users/820065097707814952" target="_blank"
+                                    rel="noreferrer">
+                                    <span class="sr-only">Discord</span>
+                                    <svg viewBox="0 0 21 16" fill="currentColor" class="h-6 w-6" aria-hidden="true">
+                                        <path xmlns="http://www.w3.org/2000/svg" id="white_background"
+                                            d="M16.942 1.556a16.3 16.3 0 0 0-4.126-1.3 12.04 12.04 0 0 0-.529 1.1 15.175 15.175 0 0 0-4.573 0 11.585 11.585 0 0 0-.535-1.1 16.274 16.274 0 0 0-4.129 1.3A17.392 17.392 0 0 0 .182 13.218a15.785 15.785 0 0 0 4.963 2.521c.41-.564.773-1.16 1.084-1.785a10.63 10.63 0 0 1-1.706-.83c.143-.106.283-.217.418-.33a11.664 11.664 0 0 0 10.118 0c.137.113.277.224.418.33-.544.328-1.116.606-1.71.832a12.52 12.52 0 0 0 1.084 1.785 16.46 16.46 0 0 0 5.064-2.595 17.286 17.286 0 0 0-2.973-11.59ZM6.678 10.813a1.941 1.941 0 0 1-1.8-2.045 1.93 1.93 0 0 1 1.8-2.047 1.919 1.919 0 0 1 1.8 2.047 1.93 1.93 0 0 1-1.8 2.045Zm6.644 0a1.94 1.94 0 0 1-1.8-2.045 1.93 1.93 0 0 1 1.8-2.047 1.918 1.918 0 0 1 1.8 2.047 1.93 1.93 0 0 1-1.8 2.045Z">
+                                    </path>  
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="mr-5 text-xs">
+                                <a class="block hover:text-slate-200" href="https://open.spotify.com/user/k0ka3tjhcgk1cck7ucsc2grwe?si=4T9vHouaTISZysgE439ZxQ&nd=1&dlsi=b6b1db3c8f64467e" target="_blank"
+                                    rel="noreferrer">
+                                    <span class="sr-only">Spotify</span>
+                                    <svg viewBox="0 0 16 16" fill="currentColor" class="h-6 w-6" aria-hidden="true">
+                                        <path xmlns="http://www.w3.org/2000/svg"
+                                            d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0zm3.669 11.538a.498.498 0 0 1-.686.165c-1.879-1.147-4.243-1.407-7.028-.77a.499.499 0 0 1-.222-.973c3.048-.696 5.662-.397 7.77.892a.5.5 0 0 1 .166.686zm.979-2.178a.624.624 0 0 1-.858.205c-2.15-1.321-5.428-1.704-7.972-.932a.625.625 0 0 1-.362-1.194c2.905-.881 6.517-.454 8.986 1.063a.624.624 0 0 1 .206.858zm.084-2.268C10.154 5.56 5.9 5.419 3.438 6.166a.748.748 0 1 1-.434-1.432c2.825-.857 7.523-.692 10.492 1.07a.747.747 0 1 1-.764 1.288z">
+                                        </path>
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </header>
+                    <main id="content" class="pt-24 lg:w-1/2 lg:py-24">
+                        <div class="flex items-center text-lg font-medium text-slate-900 dark:text-slate-200">  
+                            <p class="first-line:tracking-widest first-letter:text-5xl first-letter:text-slate-900 dark:first-letter:text-slate-200 first-letter:mt-1 first-letter:float-left mt-4 max-w-xs leading-normal"></p>     
+                        <p class="mb-4">
+                            <div class="group text-xl">
+                                <strong>My Workshop Gallery</strong>
+                            </div>
+                        </p>
+                        <p class="pt-24 lg:w-1/2 lg:py-24"></p>
+                        </div>
+                        <section id="totoro" class="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24"
+                            aria-label="Totoro">
+                            <div
+                                class="sticky top-0 z-20 -mx-6 mb-4 w-screen bg-slate-900/75 px-6 py-5 backdrop-blur md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0 lg:opacity-0">
+                                <h2 class="text-sm font-bold uppercase tracking-widest text-slate-200 lg:sr-only">Totoro Bus-Stop Diorama
+                                </h2>
+                            </div>
+                            <div class="grid grid-cols-4 md:grid-cols-4 gap-4"> 
+                                <div>
+                                    <img loading="lazy" width="403" height="302" class="rounded-lg"  src="./img/IMG_4008_t.jpg" alt="">
+                                  </div>
+                                  <div>
+                                    <img loading="lazy" width="211" height="248" class="rounded-lg"  src="./img/FullSizeRender 4.jpeg" alt="">
+                                  </div>
+                                 <div>
+                                   <img loading="lazy" width="211" height="248" class="rounded-lg"  src="./img/Full_IMG_6131.jpeg" alt="">
+                                 </div>
+                                 <div>
+                                    <img loading="lazy" width="211" height="248" class="rounded-lg"  src="./img/IMG_4172_t.jpg" alt="">
+                                  </div>
+                                  <div>
+                                    <img loading="lazy" width="211" height="248" class="rounded-lg"  src="./img/IMG_4175_t.jpg" alt="">
+                                  </div>
+                                  <div>
+                                    <img loading="lazy" width="211" height="248" class="rounded-lg"  src="./img/FullSizeRender 2.jpeg" alt="">
+                                </div>
+                                    <div>
+                                        <img loading="lazy" width="211" height="248" class="rounded-lg"  src="./img/FullSizeRender 5.jpeg" alt="">
+                                      </div>
+                                  <div>
+                                    <img loading="lazy" width="211" height="248" class="rounded-lg"  src="./img/IMG_4195_t.JPG" alt="">
+                                  </div>
+                                  <div>
+                                    <img loading="lazy" width="211" height="248" class="rounded-lg"  src="./img/IMG_4197_t.JPG" alt="">
+                                  </div>
+                                  <div>
+                                    <img loading="lazy" width="211" height="248" class="rounded-lg"  src="./img/IMG_4198_t.JPG" alt="">
+                                  </div>
+                                  <div>
+                                    <img loading="lazy" width="211" height="248" class="rounded-lg"  src="./img/FullSizeRender 3.jpeg" alt="">
+                                  </div>
+                                  <div>
+                                    <img loading="lazy" width="211" height="248" class="rounded-lg"  src="./img/IMG_6256_wire.jpg" alt="">
+                                  </div> 
+                                  <div>
+                                    <img loading="lazy" width="211" height="248" class="rounded-lg"  src="./img/Full_IMG_4181.jpeg" alt="">
+                                  </div> 
+                                  <div>
+                                    <img loading="lazy" width="211" height="248" class="rounded-lg"  src="./img/IMG_4202_t.jpg" alt="">
+                                  </div> 
+                                  <div>
+                                    <img loading="lazy" width="211" height="248" class="rounded-lg"  src="./img/IMG_4291_t.jpg" alt="">
+                                  </div> 
+                                  <div>
+                                    <img loading="lazy" width="211" height="248" class="rounded-lg"  src="./img/IMG_4298_t.jpg" alt="">
+                                  </div> 
+                                  <div>
+                                    <img loading="lazy" width="211" height="248" class="rounded-lg"  src="./img/IMG_4295_t.jpg" alt="">
+                                  </div> 
+                                  <div>
+                                    <img width="211" height="248" class="rounded-lg"  src="./img/IMG_4261_t.mov" alt="">
+                                  </div> 
+                          </div> 
+                        </section>
+                          <section id="sardine" class="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24"
+                            aria-label="Sardine">
+                            <div
+                                class="sticky top-0 z-20 -mx-6 mb-4 w-screen bg-slate-900/75 px-6 py-5 backdrop-blur md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0 lg:opacity-0">
+                                <h2 class="text-sm font-bold uppercase tracking-widest text-slate-200 lg:sr-only">
+                                    Sardine Tin Keychain </h2>
+                            </div>
+                            <div class="grid grid-cols-4 md:grid-cols-4 gap-4">
+                                <div>
+                                    <img loading="lazy" width="211" height="248" class="rounded-lg" src="./img/IMG_5266_s1.jpeg" alt="">
+                                </div>
+                                <div>
+                                    <img loading="lazy" width="211" height="248" class="rounded-lg" src="./img/IMG_5764_s2.jpeg" alt="">
+                                </div>
+                                <div>
+                                    <img loading="lazy" width="211" height="248" class="rounded-lg" src="./img/IMG_5766_s3.jpeg" alt="">
+                                </div>
+                          
+                                <div>
+                                    <img loading="lazy" width="211" height="248" class="rounded-lg"  src="./img/IMG_5767_s4.jpeg" alt="">
+                                </div>
+                                <div>
+                                    <img loading="lazy" width="211" height="248" class="rounded-lg"  src="./img/IMG_5768_s5.jpeg" alt="">
+                                </div>
+                                <div>
+                                    <img loading="lazy" width="211" height="248" class="rounded-lg" src="./img/IMG_5771_s7.jpeg" alt="">
+                                </div>
+                                <div>
+                                    <img loading="lazy" width="211" height="248" class="rounded-lg"  src="./img/IMG_5772_s8.jpeg" alt="">
+                                </div>
+                                <div>
+                                    <img loading="lazy" width="211" height="248" class="rounded-lg" src="./img/IMG_5779_s9.jpeg" alt="">
+                                </div>
+                          
+                                <div>
+                                    <img loading="lazy" width="211" height="248" class="rounded-lg" src="./img/IMG_5781_s11.jpeg" alt="">
+                                </div>
+                                <div>
+                                    <img loading="lazy" width="211" height="248" class="rounded-lg"  src="./img/IMG_5782_s12.jpeg" alt="">
+                                </div>
+                                <div>
+                                    <img loading="lazy" width="211" height="248" class="rounded-lg" src="./img/IMG_5783_s13.jpeg" alt="">
+                                </div>
+                           
+                                <div>
+                                    <img loading="lazy" width="211" height="248" class="rounded-lg"  src="./img/IMG_5780_s.jpeg" alt="">
+                                  </div> 
+                                  <div>
+                                    <img loading="lazy" width="211" height="248" class="rounded-lg"  src="./img/IMG_5785_s15.jpeg" alt="">
+                                  </div> 
+                                  <div>
+                                    <img loading="lazy" width="211" height="248" class="rounded-lg" src="./img/IMG_5784_s14.jpeg" alt="">
+                                </div>
+                           </div>
+                        </section>
+                        <section id="rube" class="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24"
+                        aria-label="Rube">
+                        <div
+                            class="sticky top-0 z-20 -mx-6 mb-4 w-screen bg-slate-900/75 px-6 py-5 backdrop-blur md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0 lg:opacity-0">
+                            <h2 class="text-sm font-bold uppercase tracking-widest text-slate-200 lg:sr-only">
+                                Golf Themed Rube Goldberg Machine </h2>
+                        </div>
+                        <div class="grid grid-cols-4 md:grid-cols-4 gap-4"> 
+                              <div>
+                                <img loading="lazy" width="241" height="278" class="rounded-lg"  src="./img/IMG_3659_r.jpeg" alt="">
+                              </div> 
+                              <div>
+                                <img loading="lazy" width="211" height="248" class="rounded-lg"  src="./img/IMG_3682_r.jpg" alt="">
+                              </div> 
+                              <div>
+                                <img loading="lazy" width="211" height="248" class="rounded-lg"  src="./img/IMG_3683_r.jpg" alt="">
+                              </div> 
+                              <div>
+                                <img loading="lazy" width="211" height="248" class="rounded-lg"  src="./img/IMG_5398_r.jpeg" alt="">
+                              </div>
+                              <div>
+                                <img loading="lazy" width="211" height="248" class="rounded-lg"  src="./img/IMG_3685_r.jpg" alt="">
+                              </div> 
+                              <div>
+                                <img loading="lazy" width="211" height="248" class="rounded-lg"  src="./img/IMG_3681.jpeg" alt="">
+                              </div> 
+                              <div>
+                                <img class="rounded-lg"  src="./img/IMG_5415_r.MOV" alt="">
+                              </div>
+                       </div> 
+                    </section> 
+                    <footer class="maz-w-md pb-16 text-sm text-slate-900 dark:text-slate-500 sm:pb-0">
+                            <p>Build with Tailwind CSS and Flowbite, coded in Visual Studio Code. Modeled after <a href="https://brittanychiang.com">Brittany Chiang</a>.</p>   
+                        </footer>
+                    </main>
+                </div>
+            </div>
+        </div>
+    </div>
+   <script src="../node_modules/flowbite/dist/flowbite.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
