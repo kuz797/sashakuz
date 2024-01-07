@@ -1042,10 +1042,6 @@ input:checked + .toggle-bg {
   border-width: 0;
 }
 
-.pointer-events-none {
-  pointer-events: none;
-}
-
 .visible {
   visibility: visible;
 }
@@ -1921,10 +1917,6 @@ input:checked + .toggle-bg {
   transition-delay: 75ms;
 }
 
-.duration-300 {
-  transition-duration: 300ms;
-}
-
 .duration-75 {
   transition-duration: 75ms;
 }
@@ -2291,10 +2283,6 @@ input:checked + .toggle-bg {
     border-width: 0;
   }
 
-  .lg\:absolute {
-    position: absolute;
-  }
-
   .lg\:relative {
     position: relative;
   }
@@ -2383,11 +2371,6 @@ input:checked + .toggle-bg {
 
   .lg\:font-medium {
     font-weight: 500;
-  }
-
-  .lg\:text-sky-900 {
-    --tw-text-opacity: 1;
-    color: rgb(12 74 110 / var(--tw-text-opacity));
   }
 
   .lg\:opacity-0 {
@@ -2581,10 +2564,5 @@ input:checked + .toggle-bg {
   :is(:where(.dark) .lg\:dark\:text-green-600) {
     --tw-text-opacity: 1;
     color: rgb(5 122 85 / var(--tw-text-opacity));
-  }
-
-  :is(:where(.dark) .lg\:dark\:text-slate-200) {
-    --tw-text-opacity: 1;
-    color: rgb(226 232 240 / var(--tw-text-opacity));
   }
 }
