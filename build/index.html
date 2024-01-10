@@ -628,16 +628,15 @@
     <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
     <script type="text/javascript">
       $(document).mousemove(function (e) {
-        var mouseX = e.clientX;
-        var mouseY = e.clientY;
-
+        var mouseX = e.pageX;
+        var mouseY = e.pageY;
         $(".focus").css(
           "background",
           "radial-gradient(circle 600px at " +
             mouseX +
             "px " +
             mouseY +
-            "px,  rgba(29, 78, 216, 0.15), transparent 70%)",
+            "px,  rgba(29, 78, 216, 0.15), transparent 60%)",
         );
       });
     </script>
