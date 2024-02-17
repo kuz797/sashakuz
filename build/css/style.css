@@ -1272,8 +1272,8 @@ input:checked + .toggle-bg {
   width: 50%;
 }
 
-.w-24 {
-  width: 6rem;
+.w-28 {
+  width: 7rem;
 }
 
 .w-36 {
@@ -1307,10 +1307,6 @@ input:checked + .toggle-bg {
 
 .w-screen {
   width: 100vw;
-}
-
-.w-28 {
-  width: 7rem;
 }
 
 .max-w-screen-xl {
